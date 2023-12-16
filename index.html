@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Submit form</h3>
+    <form action="https://harrypotter.com" method="post"> 
+        <label for="firstname">First name:</label><br>
+        <input type="text" id="firstName" name="firstName" required><br><br>
+        
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age" required><br><br>
+        
+        <label for="gender">Gender:</label><br>
+        <select id="gender" name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">other</option>
+        </select><br><br>
+        
+        <label for="house">House:</label><br>
+        <input type="radio" id="gryffindor" name="house" value="gryffindor">
+        <label for="gryffindor">Gryffindor</label><br>
+        <input type="radio" id="hufflepuff" name="house" value="hufflepuff">
+        <label for="hufflepuff">Hufflepuff</label><br>
+        <input type="radio" id="ravenclaw" name="house" value="ravenclaw">
+        <label for="ravenclaw">Ravenclaw</label><br>
+        <input type="radio" id="slytherin" name="house" value="slytherin">
+        <label for="slytherin">Slytherin</label><br><br>
+        
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
